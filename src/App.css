@@ -1,0 +1,589 @@
+/* Add this to your App.css */
+
+.App-header {
+  background-color: #000;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Add padding for better spacing */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.company-name {
+  color: white;
+}
+
+.company-logo {
+  width: 40px; /* Adjust the width of the logo */
+  height: 40px; /* Adjust the height of the logo */
+  margin-right: 10px; /* Add margin between logo and company name */
+}
+
+.company-logo img {
+  max-width: 100%;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.line{
+  color: #eab676;
+  font-size: 35px;
+  padding-right: 10px;
+}
+
+.course-button {
+  background-color: #FFFF00;
+  color: #282c34;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.cover-section {
+  overflow: hidden; /* Hide overflowing content */
+}
+.cover-picture {
+  width: 100%;
+  height: auto;
+}
+/* Add this to your App.css */
+
+.profile-info {
+  position: relative;
+  margin-top: -40px; /* Adjust this value to control the overlap */
+  z-index: 1; /* Ensure the profile picture appears above the cover picture */
+  text-align: center;
+}
+.profile {
+  position: relative;
+}
+
+.profile-picture {
+  width: 150px; /* Adjust the size of the profile picture as needed */
+  height: 150px; /* Adjust the size of the profile picture as needed */
+  border-radius: 50%; /* Create a round shape */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  border: 3px solid #BBEBF1; /* Add a white border for visibility */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2; /* Place the profile picture above other content */
+}
+.user-details {
+  text-align: center;
+  margin-top: 150px;
+  color: #000;
+   
+}
+.user-details h3{
+  font-size: 40px;
+}
+.verified-icon {
+  width: 20px; /* Adjust the size of the verified icon */
+  height: 20px; /* Adjust the size of the verified icon */
+  margin-left: 5px; /* Adjust the spacing between the name and the icon */
+}
+.follower-info {
+   /* Add border-radius for rounded corners */
+  text-align: center; /* Center the text within the box */
+  
+  
+}
+
+.follower-info p {
+  padding: 8px; /* Add padding for better appearance */
+  border-radius: 8px;
+  border: 2px solid #282c34;
+  margin: 0;
+  color: #000; /* Set text color to white */
+  font-size: 18px; /* Adjust the font size of the numbers */
+}
+.follower-info span {
+  color: #eab676; /* Set text color to a different color for the text below the number */
+  font-size: 14px; /* Adjust the font size of the text below the number */
+}
+
+.follower-box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 5px;
+}
+.bio-section {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+.bio-section .insta{
+  color: skyblue;
+}
+.reaction-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Adjust the gap size as needed */
+  margin-top: 10px;
+}
+.reaction-icons p{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -30px;
+  margin-top: 4px;
+}
+.reaction-icons .star {
+  background-color: #4CAF50; /* Green background for like */
+}
+.reaction-icons .like {
+  background-color: #9dbb07; /* Red background for dislike */
+}
+.reaction-icons .eye {
+  background-color: grey; /* Red background for dislike */
+}
+.reaction-icons .heart {
+  background-color: #f44336; /* Red background for dislike */
+}
+.reaction-icons svg {
+  width: 20px; /* Adjust the size of the icons */
+  height: 20px; /* Adjust the size of the icons */
+  padding: 8px; /* Add padding for better appearance */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  color: #fff; /* Set text color to white */
+  cursor: pointer;
+}
+/* Update this in your App.css */
+
+.post-info-box {
+  display: inline-block; /* Set display property to inline-block */
+  padding: 8px; /* Add padding for better appearance */
+  text-align: center; /* Center the text within the box */
+  margin-top: -40px; /* Adjust margin as needed */
+  padding-left: 190px;
+}
+
+.post-info-box p {
+  padding: 8px; /* Add padding for better appearance */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  border: 2px solid #282c34;
+  color: blue;
+  font-weight: bold;
+}
+
+/* Update this in your App.css */
+
+
+
+.like-heading {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 10px; /* Adjust margin as needed */
+  font-size: 25px;
+}
+
+.like-heading .like{
+  background-color: #9dbb07; /* Red background for dislike */
+  margin-left: 600px;
+
+}
+
+.sub-heading {
+  text-align: left;
+   font-style: italic; /* Apply italic style to the subheading */
+  margin-left: 200px;
+  margin-right: 400px;
+  font-size: 20px;
+}
+.metadata {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; /* Adjust margin as needed */
+  margin-top: 50px;
+}
+.metadata span{
+  color: #11bfef; /* Set the color of the left text */
+
+}
+.left-text {
+  padding-left: 200px;
+  color: grey;
+}
+.right-text {
+  padding-right: 200px;
+  color: grey;
+}
+
+
+
+
+
+/* Adjust styles for smaller screens */
+@media (max-width: 650px) {
+  .App-header {
+    height: 8vh;
+    flex-direction: initial;
+    align-items: center;
+  }
+
+  .header-left,
+  .header-right { 
+    margin-bottom: 10px;
+  }
+  .company-name{
+    font-size: 20px;
+  }
+  .company-logo {
+    width: 20px; /* Adjust the width of the logo for smaller screens */
+    height: 20px; /* Adjust the height of the logo for smaller screens */
+  }
+  .line {
+    font-size: 25px; /* Adjust the font size of the line icon for smaller screens */
+  }
+  .course-button {
+    margin-top: 10px; /* Adjust the margin for the course button */
+    max-width: 100%;
+    padding-right: 20px;
+  }
+  .cover-picture {
+    max-width: 100%; /* Ensure the cover picture is responsive */
+    height: auto;
+  }
+  .profile-info {
+    margin-top: -20px; /* Adjust the overlap value for smaller screens */
+  }
+  .profile-picture {
+    top: 0;
+    left: 15%;
+  }
+  .user-details{
+    margin-top: 40px;
+    margin-left: -30px;
+  }
+  .user-details h3{
+    font-size: 25px;
+  }
+  .verified-icon {
+    width: 15px; /* Adjust the size of the verified icon for smaller screens */
+    height: 15px; /* Adjust the size of the verified icon for smaller screens */
+  }
+  .follower-box {
+    gap: 20px; /* Adjust the gap between follower boxes for smaller screens */
+  }
+  .follower-info p {
+    font-size: 16px; /* Adjust the font size of follower numbers for smaller screens */
+  }
+
+  .bio-section {
+    text-align: left;
+    margin-left: 40px; /* Adjust the margin as needed */
+  }
+  .reaction-icons {
+    order: -1; /* Move the reaction-icons to the beginning */
+    margin-left: -130px;
+    gap: -20px;
+    
+  }
+  .reaction-icons p{
+    font-size: 16px;
+    margin-left: -60px;
+    margin-top: 4px;
+    padding-left: 20px;
+  }
+  .reaction-icons svg {
+    width: 12px; /* Adjust the size of the icons */
+    height: 12px; /* Adjust the size of the icons */
+  }
+  .post-info-box {
+    padding-left: 20px; /* Adjust the padding for post info box */
+    margin-top: -50px; /* Adjust the margin for post info box */
+  }
+  .like-heading {
+    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
+    font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+  .like-heading .like{
+    margin-left: 50px;
+  
+  }
+  .sub-heading {
+    margin-left: 20px; /* Adjust the margin for subheading */
+    margin-right: 20px; /* Adjust the margin for subheading */
+    font-size: 20px; /* Adjust the font size of subheading for smaller screens */
+    padding-right: 50px;
+  }
+  .metadata {
+    margin-top: 20px; /* Adjust the margin for metadata */
+    margin-bottom: 20px; /* Adjust the margin for metadata */
+  }
+  .left-text,
+  .right-text {
+    padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+    padding-right: 30px;
+    font-size: 15px;
+  }
+  .right-text{
+    margin-right: 50px;
+  }
+  
+}
+
+@media (max-width: 815px){
+  .profile-picture {
+    top: 0;
+    left: 12%;
+  }
+  .user-details{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .profile-info {
+    margin-top: -20px; /* Adjust the overlap value for smaller screens */
+  }
+  .bio-section {
+    text-align: left;
+    margin-left: 40px; /* Adjust the margin as needed */
+  }
+  .reaction-icons {
+    order: -1; /* Move the reaction-icons to the beginning */
+    margin-left: -100px;
+    gap: -20px;
+    
+  }
+  .post-info-box {
+    padding-left: 20px; /* Adjust the padding for post info box */
+    margin-top: -50px; /* Adjust the margin for post info box */
+  }
+
+.like-heading {
+  gap: 180px; /* Adjust the gap between like heading elements for smaller screens */
+  font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+  margin-left: 40px;
+  margin-top: -30px;
+}
+.like-heading .like{
+  margin-left: 60px;
+
+}
+.sub-heading {
+  margin-left: 30px; /* Adjust the margin for subheading */
+  margin-right: 20px; /* Adjust the margin for subheading */
+  font-size: 20px; /* Adjust the font size of subheading for smaller screens */
+  padding-right: 50px;
+}
+.left-text,
+.right-text {
+  padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+  padding-right: 30px;
+  font-size: 15px;
+}
+}
+
+
+@media (max-width: 1000px){
+  .profile-picture {
+    top: 0;
+    left: 15%;
+  }
+  .user-details{
+    margin-top: -30px;
+    margin-left: -130px;
+  }
+  .profile-info {
+    margin-top: -20px; /* Adjust the overlap value for smaller screens */
+  }
+  .bio-section {
+    text-align: left;
+    margin-left: 40px; /* Adjust the margin as needed */
+  }
+  .reaction-icons {
+    order: -1; /* Move the reaction-icons to the beginning */
+    margin-left: -200px;
+    gap: -20px;
+    
+  }
+  .post-info-box {
+    padding-left: 20px; /* Adjust the padding for post info box */
+    margin-top: -50px; /* Adjust the margin for post info box */
+  }
+
+.like-heading {
+  gap: 180px; /* Adjust the gap between like heading elements for smaller screens */
+  font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+  margin-left: 40px;
+  margin-top: -30px;
+}
+.like-heading .like{
+  margin-left: 60px;
+
+}
+.sub-heading {
+  margin-left: 30px; /* Adjust the margin for subheading */
+  margin-right: 20px; /* Adjust the margin for subheading */
+  font-size: 20px; /* Adjust the font size of subheading for smaller screens */
+  padding-right: 50px;
+}
+.left-text,
+.right-text {
+  padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+  padding-right: 30px;
+  font-size: 15px;
+}
+}
+
+
+@media (max-width: 544px) {
+  
+  .profile-picture {
+    top: 0;
+    left: 20%;
+  }
+  .user-details{
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .like-heading {
+    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
+    font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+  .reaction-icons {
+    margin-left: -30px;
+    gap: 40px;
+    
+  }
+  .reaction-icons p{
+    font-size: 11px;
+    margin-left: -50px;
+    padding-left: 25px;
+  }
+  .reaction-icons svg {
+    width: 10px; /* Adjust the size of the icons */
+    height: 10px; /* Adjust the size of the icons */
+  }
+  .left-text,
+  .right-text {
+    padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+    padding-right: 20px;
+    font-size: 12px;
+  }
+  .right-text{
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 391px) {
+  
+  .profile-picture {
+    top: 0;
+    left: 18%;
+    height: 100px;
+    width: 100px;
+  }
+  .profile-info {
+    margin-top: -15px; /* Adjust this value to control the overlap */
+  }
+  .user-details{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .reaction-icons {
+    margin-left: -30px;
+    gap: 25px;
+    
+  }
+  .reaction-icons p{
+    margin-left: -40px;
+  }
+  .like-heading {
+    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
+    font-size: 12px; /* Adjust the font size of like heading for smaller screens */
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+  .sub-heading {
+    margin-top: -10px; /* Adjust the margin for subheading */
+    font-size: 13px; /* Adjust the font size of subheading for smaller screens */
+  }
+  .left-text,
+  .right-text {
+    padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+    padding-right: 20px;
+    font-size: 10px;
+  }
+  .right-text{
+    margin-right: 10px;
+  }
+
+}
+
+@media (max-width: 415px) {
+  
+  .profile-info {
+    margin-top: -15px; /* Adjust this value to control the overlap */
+  }
+  .user-details{
+    margin-top: 35px;
+    margin-left: 80px;
+  }
+  .like-heading {
+    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
+    font-size: 13px; /* Adjust the font size of like heading for smaller screens */
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 361px) {
+
+  .profile-picture {
+    top: 0;
+    left: 15%;
+    height: 80px;
+    width: 80px;
+  }
+  
+  .profile-info {
+    margin-top: -15px; /* Adjust this value to control the overlap */
+  }
+  .user-details{
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .user-details h3{
+    font-size: 20px;
+  }
+}
+@media (max-width: 1030px) {
+
+  .profile-info {
+    margin-top: -15px; /* Adjust this value to control the overlap */
+  }
+  .user-details{
+    margin-top: 155px;
+    margin-left: 10px;
+  }
+  .user-details h3{
+    font-size: 30px;
+  }
+  .like-heading {
+    gap: 10px; /* Adjust the gap between like heading elements for smaller screens */
+    font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+    margin-left: 80px;
+    margin-top: -30px;
+    
+  }
+  
+}
+
+
+
+
