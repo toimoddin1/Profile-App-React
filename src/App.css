@@ -1,12 +1,10 @@
-/* Add this to your App.css */
-
 .App-header {
   background-color: #000;
   height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px; /* Add padding for better spacing */
+  padding: 0 20px; 
 }
 
 .header-left {
@@ -18,9 +16,9 @@
 }
 
 .company-logo {
-  width: 40px; /* Adjust the width of the logo */
-  height: 40px; /* Adjust the height of the logo */
-  margin-right: 10px; /* Add margin between logo and company name */
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
 }
 
 .company-logo img {
@@ -47,18 +45,18 @@
   font-size: 1em;
 }
 .cover-section {
-  overflow: hidden; /* Hide overflowing content */
+  overflow: hidden; 
 }
 .cover-picture {
   width: 100%;
   height: auto;
 }
-/* Add this to your App.css */
+
 
 .profile-info {
   position: relative;
-  margin-top: -40px; /* Adjust this value to control the overlap */
-  z-index: 1; /* Ensure the profile picture appears above the cover picture */
+  margin-top: -40px; 
+  z-index: 1;
   text-align: center;
 }
 .profile {
@@ -66,16 +64,16 @@
 }
 
 .profile-picture {
-  width: 150px; /* Adjust the size of the profile picture as needed */
-  height: 150px; /* Adjust the size of the profile picture as needed */
-  border-radius: 50%; /* Create a round shape */
-  object-fit: cover; /* Ensure the image covers the entire container */
-  border: 3px solid #BBEBF1; /* Add a white border for visibility */
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 3px solid #BBEBF1; 
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2; /* Place the profile picture above other content */
+  z-index: 2; 
 }
 .user-details {
   text-align: center;
@@ -87,28 +85,29 @@
   font-size: 40px;
 }
 .verified-icon {
-  width: 20px; /* Adjust the size of the verified icon */
-  height: 20px; /* Adjust the size of the verified icon */
-  margin-left: 5px; /* Adjust the spacing between the name and the icon */
+  width: 20px; 
+  height: 20px; 
+  margin-left: 5px; 
 }
 .follower-info {
-   /* Add border-radius for rounded corners */
-  text-align: center; /* Center the text within the box */
+   
+  text-align: center; 
   
   
 }
 
 .follower-info p {
-  padding: 8px; /* Add padding for better appearance */
+  padding: 8px; 
   border-radius: 8px;
   border: 2px solid #282c34;
   margin: 0;
-  color: #000; /* Set text color to white */
-  font-size: 18px; /* Adjust the font size of the numbers */
+  color: #000; 
+  font-size: 18px;
 }
 .follower-info span {
-  color: #eab676; /* Set text color to a different color for the text below the number */
-  font-size: 14px; /* Adjust the font size of the text below the number */
+  color: grey;
+  font-size: 14px; 
+  font-weight: bold;
 }
 
 .follower-box {
@@ -119,7 +118,7 @@
 }
 .bio-section {
   text-align: center;
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px; 
 }
 .bio-section .insta{
   color: skyblue;
@@ -127,7 +126,7 @@
 .reaction-icons {
   display: flex;
   justify-content: center;
-  gap: 50px; /* Adjust the gap size as needed */
+  gap: 50px; 
   margin-top: 10px;
 }
 .reaction-icons p{
@@ -138,44 +137,44 @@
   margin-top: 4px;
 }
 .reaction-icons .star {
-  background-color: #4CAF50; /* Green background for like */
+  background-color: #4CAF50; 
 }
 .reaction-icons .like {
-  background-color: #9dbb07; /* Red background for dislike */
+  background-color: #9dbb07; 
 }
 .reaction-icons .eye {
-  background-color: grey; /* Red background for dislike */
+  background-color: grey; 
 }
 .reaction-icons .heart {
-  background-color: #f44336; /* Red background for dislike */
+  background-color: #f44336;
 }
 .reaction-icons svg {
-  width: 20px; /* Adjust the size of the icons */
-  height: 20px; /* Adjust the size of the icons */
-  padding: 8px; /* Add padding for better appearance */
-  border-radius: 8px; /* Add border-radius for rounded corners */
-  color: #fff; /* Set text color to white */
+  width: 20px; 
+  height: 20px; 
+  padding: 8px; 
+  border-radius: 8px;
+  color: #fff; 
   cursor: pointer;
 }
-/* Update this in your App.css */
+
 
 .post-info-box {
-  display: inline-block; /* Set display property to inline-block */
-  padding: 8px; /* Add padding for better appearance */
-  text-align: center; /* Center the text within the box */
-  margin-top: -40px; /* Adjust margin as needed */
+  display: inline-block; 
+  padding: 8px; 
+  text-align: center; 
+  margin-top: -40px; 
   padding-left: 190px;
 }
 
 .post-info-box p {
-  padding: 8px; /* Add padding for better appearance */
-  border-radius: 8px; /* Add border-radius for rounded corners */
+  padding: 8px;
+  border-radius: 8px; 
   border: 2px solid #282c34;
   color: blue;
   font-weight: bold;
 }
 
-/* Update this in your App.css */
+
 
 
 
@@ -183,19 +182,18 @@
   display: flex;
   align-items: center;
   gap: 60px;
-  margin-bottom: 10px; /* Adjust margin as needed */
+  margin-bottom: 10px; 
   font-size: 25px;
 }
 
 .like-heading .like{
-  background-color: #9dbb07; /* Red background for dislike */
+  background-color: #9dbb07; 
   margin-left: 600px;
 
 }
 
 .sub-heading {
   text-align: left;
-   font-style: italic; /* Apply italic style to the subheading */
   margin-left: 200px;
   margin-right: 400px;
   font-size: 20px;
@@ -203,11 +201,11 @@
 .metadata {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px; /* Adjust margin as needed */
+  margin-bottom: 30px; 
   margin-top: 50px;
 }
 .metadata span{
-  color: #11bfef; /* Set the color of the left text */
+  color: #11bfef; 
 
 }
 .left-text {
@@ -224,6 +222,7 @@
 
 
 /* Adjust styles for smaller screens */
+
 @media (max-width: 650px) {
   .App-header {
     height: 8vh;
@@ -239,23 +238,24 @@
     font-size: 20px;
   }
   .company-logo {
-    width: 20px; /* Adjust the width of the logo for smaller screens */
-    height: 20px; /* Adjust the height of the logo for smaller screens */
+    width: 20px; 
+    height: 20px;
+
   }
   .line {
-    font-size: 25px; /* Adjust the font size of the line icon for smaller screens */
+    font-size: 25px; 
   }
   .course-button {
-    margin-top: 10px; /* Adjust the margin for the course button */
+    margin-top: 10px; 
     max-width: 100%;
     padding-right: 20px;
   }
   .cover-picture {
-    max-width: 100%; /* Ensure the cover picture is responsive */
+    max-width: 100%; 
     height: auto;
   }
   .profile-info {
-    margin-top: -20px; /* Adjust the overlap value for smaller screens */
+    margin-top: -20px; 
   }
   .profile-picture {
     top: 0;
@@ -269,22 +269,22 @@
     font-size: 25px;
   }
   .verified-icon {
-    width: 15px; /* Adjust the size of the verified icon for smaller screens */
-    height: 15px; /* Adjust the size of the verified icon for smaller screens */
+    width: 15px; 
+    height: 15px; 
   }
   .follower-box {
-    gap: 20px; /* Adjust the gap between follower boxes for smaller screens */
+    gap: 20px; 
   }
   .follower-info p {
-    font-size: 16px; /* Adjust the font size of follower numbers for smaller screens */
+    font-size: 16px; 
   }
 
   .bio-section {
     text-align: left;
-    margin-left: 40px; /* Adjust the margin as needed */
+    margin-left: 40px;
   }
   .reaction-icons {
-    order: -1; /* Move the reaction-icons to the beginning */
+    order: -1; 
     margin-left: -130px;
     gap: -20px;
     
@@ -296,16 +296,16 @@
     padding-left: 20px;
   }
   .reaction-icons svg {
-    width: 12px; /* Adjust the size of the icons */
-    height: 12px; /* Adjust the size of the icons */
+    width: 12px; 
+    height: 12px; 
   }
   .post-info-box {
-    padding-left: 20px; /* Adjust the padding for post info box */
-    margin-top: -50px; /* Adjust the margin for post info box */
+    padding-left: 20px; 
+    margin-top: -50px; 
   }
   .like-heading {
-    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
-    font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+    gap: 20px; 
+    font-size: 15px; 
     margin-left: 20px;
     margin-top: -30px;
   }
@@ -314,18 +314,18 @@
   
   }
   .sub-heading {
-    margin-left: 20px; /* Adjust the margin for subheading */
-    margin-right: 20px; /* Adjust the margin for subheading */
-    font-size: 20px; /* Adjust the font size of subheading for smaller screens */
+    margin-left: 20px;
+    margin-right: 20px; 
+    font-size: 20px; 
     padding-right: 50px;
   }
   .metadata {
-    margin-top: 20px; /* Adjust the margin for metadata */
-    margin-bottom: 20px; /* Adjust the margin for metadata */
+    margin-top: 20px; 
+    margin-bottom: 20px; 
   }
   .left-text,
   .right-text {
-    padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+    padding-left: 20px; 
     padding-right: 30px;
     font-size: 15px;
   }
@@ -345,26 +345,26 @@
     margin-left: 20px;
   }
   .profile-info {
-    margin-top: -20px; /* Adjust the overlap value for smaller screens */
+    margin-top: -20px; 
   }
   .bio-section {
     text-align: left;
-    margin-left: 40px; /* Adjust the margin as needed */
+    margin-left: 40px; 
   }
   .reaction-icons {
-    order: -1; /* Move the reaction-icons to the beginning */
+    order: -1; 
     margin-left: -100px;
     gap: -20px;
     
   }
   .post-info-box {
-    padding-left: 20px; /* Adjust the padding for post info box */
-    margin-top: -50px; /* Adjust the margin for post info box */
+    padding-left: 20px; 
+    margin-top: -50px; 
   }
 
 .like-heading {
-  gap: 180px; /* Adjust the gap between like heading elements for smaller screens */
-  font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+  gap: 180px; 
+  font-size: 15px; 
   margin-left: 40px;
   margin-top: -30px;
 }
@@ -373,50 +373,49 @@
 
 }
 .sub-heading {
-  margin-left: 30px; /* Adjust the margin for subheading */
-  margin-right: 20px; /* Adjust the margin for subheading */
-  font-size: 20px; /* Adjust the font size of subheading for smaller screens */
+  margin-left: 30px; 
+  margin-right: 20px;
+  font-size: 20px; 
   padding-right: 50px;
 }
 .left-text,
 .right-text {
-  padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+  padding-left: 20px; 
   padding-right: 30px;
   font-size: 15px;
 }
 }
 
-
-@media (max-width: 1000px){
+@media (max-width: 900px){
   .profile-picture {
     top: 0;
-    left: 15%;
+    left: 10%;
   }
   .user-details{
-    margin-top: -30px;
-    margin-left: -130px;
+    margin-top: 30px;
+    margin-left: -160px;
   }
   .profile-info {
-    margin-top: -20px; /* Adjust the overlap value for smaller screens */
+    margin-top: -20px; 
   }
   .bio-section {
     text-align: left;
-    margin-left: 40px; /* Adjust the margin as needed */
+    margin-left: 30px; 
   }
   .reaction-icons {
-    order: -1; /* Move the reaction-icons to the beginning */
-    margin-left: -200px;
+    order: -1; 
+    margin-left: -100px;
     gap: -20px;
     
   }
   .post-info-box {
-    padding-left: 20px; /* Adjust the padding for post info box */
-    margin-top: -50px; /* Adjust the margin for post info box */
+    padding-left: 20px; 
+    margin-top: -50px; 
   }
 
 .like-heading {
-  gap: 180px; /* Adjust the gap between like heading elements for smaller screens */
-  font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+  gap: 180px; 
+  font-size: 15px; 
   margin-left: 40px;
   margin-top: -30px;
 }
@@ -425,18 +424,19 @@
 
 }
 .sub-heading {
-  margin-left: 30px; /* Adjust the margin for subheading */
-  margin-right: 20px; /* Adjust the margin for subheading */
-  font-size: 20px; /* Adjust the font size of subheading for smaller screens */
+  margin-left: 30px; 
+  margin-right: 20px; 
+  font-size: 20px;  
   padding-right: 50px;
 }
 .left-text,
 .right-text {
-  padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+  padding-left: 20px; 
   padding-right: 30px;
   font-size: 15px;
 }
 }
+
 
 
 @media (max-width: 544px) {
@@ -450,8 +450,8 @@
     margin-left: 70px;
   }
   .like-heading {
-    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
-    font-size: 15px; /* Adjust the font size of like heading for smaller screens */
+    gap: 20px; 
+    font-size: 15px; 
     margin-left: 20px;
     margin-top: -30px;
   }
@@ -466,12 +466,12 @@
     padding-left: 25px;
   }
   .reaction-icons svg {
-    width: 10px; /* Adjust the size of the icons */
-    height: 10px; /* Adjust the size of the icons */
+    width: 10px;
+    height: 10px; 
   }
   .left-text,
   .right-text {
-    padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+    padding-left: 20px;
     padding-right: 20px;
     font-size: 12px;
   }
@@ -489,7 +489,7 @@
     width: 100px;
   }
   .profile-info {
-    margin-top: -15px; /* Adjust this value to control the overlap */
+    margin-top: -15px; 
   }
   .user-details{
     margin-top: 20px;
@@ -504,18 +504,18 @@
     margin-left: -40px;
   }
   .like-heading {
-    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
-    font-size: 12px; /* Adjust the font size of like heading for smaller screens */
+    gap: 20px; 
+    font-size: 12px; 
     margin-left: 20px;
     margin-top: -30px;
   }
   .sub-heading {
-    margin-top: -10px; /* Adjust the margin for subheading */
-    font-size: 13px; /* Adjust the font size of subheading for smaller screens */
+    margin-top: -10px; 
+    font-size: 13px; 
   }
   .left-text,
   .right-text {
-    padding-left: 20px; /* Adjust the padding for left and right text in metadata */
+    padding-left: 20px; 
     padding-right: 20px;
     font-size: 10px;
   }
@@ -528,15 +528,15 @@
 @media (max-width: 415px) {
   
   .profile-info {
-    margin-top: -15px; /* Adjust this value to control the overlap */
+    margin-top: -15px; 
   }
   .user-details{
     margin-top: 35px;
     margin-left: 80px;
   }
   .like-heading {
-    gap: 20px; /* Adjust the gap between like heading elements for smaller screens */
-    font-size: 13px; /* Adjust the font size of like heading for smaller screens */
+    gap: 20px; 
+    font-size: 13px; 
     margin-left: 20px;
     margin-top: -30px;
   }
@@ -552,7 +552,7 @@
   }
   
   .profile-info {
-    margin-top: -15px; /* Adjust this value to control the overlap */
+    margin-top: -15px; 
   }
   .user-details{
     margin-top: 25px;
@@ -562,28 +562,40 @@
     font-size: 20px;
   }
 }
-@media (max-width: 1030px) {
 
+
+
+@media (max-width: 398px) {
+  
   .profile-info {
-    margin-top: -15px; /* Adjust this value to control the overlap */
+    margin-top: -15px; 
+  }
+  .profile-picture {
+    top: 0;
+    left: 20%;
+    height: 120px;
+    width: 120px;
   }
   .user-details{
-    margin-top: 155px;
-    margin-left: 10px;
-  }
-  .user-details h3{
-    font-size: 30px;
+    margin-top: -20px;
+    margin-left: 100px;
   }
   .like-heading {
-    gap: 10px; /* Adjust the gap between like heading elements for smaller screens */
-    font-size: 15px; /* Adjust the font size of like heading for smaller screens */
-    margin-left: 80px;
+    gap: 20px; 
+    font-size: 13px; 
+    margin-left: 20px;
     margin-top: -30px;
-    
   }
+  .left-text,
+.right-text {
+  padding-left: 15px; 
+  padding-right: 2px;
+  font-size: 13px;
+}
+.follower-box {
+  gap: 30px;
+  margin-top: -10px;
+  margin-left: -15px;
+}
   
 }
-
-
-
-
